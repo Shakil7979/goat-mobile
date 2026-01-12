@@ -10,8 +10,17 @@
 	
 }
 
+@media all and (min-width: 575px){
+	.container  {
+        width: 540px;
+    }
+}
+
+
 @media all and (max-width: 575px){
-	
+    .container {
+        padding: 0 15px;
+    } 
 }
 
 @media all and (max-width: 450px){

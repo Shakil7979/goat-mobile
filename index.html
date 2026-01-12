@@ -9,52 +9,123 @@
         <meta property="og:url" content="">
         <meta property="og:image" content="">
 
-        <title>Web Template</title>
+        <title>The Coin Goat</title>
         <link rel="icon" href="assets/images/favicon.png">
 
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Bootstrap --> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css" integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- Fontawesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-        <!-- Normalize -->
-        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"> 
         <!-- CSS Files -->
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
     </head>
-    <body> 
+    <body class="bg-image"> 
 
-        
-        <!--=====================  Start Header Area  ====================-->
-        <header class="header_area">
 
+        <!--=========  Start Header Area  ===========-->
+        <header class="header_area pt-4">
+            <div class="container">
+                <div class="logo"> 
+                    <a href="#"><img src="assets/images/logo.png" alt="Logo"></a>
+                </div>
+            </div>
         </header>
-        <!--=====================  End Header Area  ====================-->
-
-        <main class="main_area"> 
-            <!--=====================  Start Banner Area  ====================-->
-            <section class="banner_area">
-
+        <!--===========  End Header Area  ============-->
+        <main class="main_area">  
+            <!--============  Start Banner Area  ===========-->
+            <section class="banner_area position-relative">
+                <div class="container"> 
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="banner-left">
+                                <h2>Track, <span>Simulate</span> & Grow your <span>Crypto portfolio</span></h2>
+                                <p>The ultimate app for managing and mastering your crypto investments.</p>
+                                <div class="banner-btn d-flex gap-3">
+                                    <a href="#" class="btn-1">Get Started for free</a>
+                                    <a href="#" class="btn-2">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="banner-rightt">
+                                <img src="assets/images/banner.png" class="w-100" alt="Banner Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
-            <!--=====================  End Banner Area  ====================--> 
+            <!--============  End Banner Area  ==========--> 
+
+            <!--============  Start Pricing Area  ==========--> 
+            <section class="pricing-area">
+                <div class="container">
+                    <div class="d-flex justify-content-center gap-4">
+                        <div class="pricing-card text-center">
+                            <img src="assets/images/price/1.png" alt="price icon" class="mb-3 d-block mx-auto">
+                            <h3 class="mb-2">Live Price Tracking</h3>
+                            <p class="mb-4">Real-Time Crypto Prices</p> 
+                        </div>
+                        <div class="pricing-card border-lr text-center">
+                            <img src="assets/images/price/2.png" alt="price icon" class="mb-3 d-block mx-auto">
+                            <h3 class="mb-2">Build Your Portfolio</h3>
+                            <p class="mb-4">Manage Your Investments</p> 
+                        </div>
+                        <div class="pricing-card text-center">
+                            <img src="assets/images/price/3.png" alt="price icon" class="mb-3 d-block mx-auto">
+                            <h3 class="mb-2">Practice with Simulator</h3>
+                            <p class="mb-4">Test Strategies Risk-Free</p> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--============  End Pricing Area  ==========--> 
+
+            
+            <!--============  Start Portfolio Area  ==========--> 
+            <section class="portfolio-area section-padding">
+                <div class="container">
+                     <div class="row g-5">
+                        <div class="col-md-4">
+                            <div class="portfolio-card text-center">
+                                <h3 class="mb-2">Portfolio Tracking</h3>
+                                <p class="mb-0">Monitor & analyze your crypto investments with ease.</p> 
+                                <img src="assets/images/portfolio/1.png" alt="portfolio icon">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolio-card text-center">
+                                <h3 class="mb-2">Portfolio Tracking</h3>
+                                <p class="mb-0">Monitor & analyze your crypto investments with ease.</p> 
+                                <img src="assets/images/portfolio/1.png" alt="portfolio icon">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolio-card text-center">
+                                <h3 class="mb-2">Portfolio Tracking</h3>
+                                <p class="mb-0">Monitor & analyze your crypto investments with ease.</p> 
+                                <img src="assets/images/portfolio/1.png" alt="portfolio icon">
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            <!--============  End Portfolio Area  ==========--> 
         </main>
                 
-        <!--=====================  Start Header Area  ====================-->
+        <!--=========  Start Header Area  =============-->
         <footer class="footer_area">
 
         </footer>
-        <!--=====================  End Header Area  ====================-->
+        <!--=======  End Header Area  ============-->
+        
  
 
 
         <!-- ~~~~~~~~~~ JS Files ~~~~~~~~~~-->
         <!-- jQuery -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-        <!-- Bootstrap -->
-        <script src="assets/js/bootstrap.min.js"></script>
-        <!-- Modernizr -->
-        <script src="assets/js/modernizr-3.11.2.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+        <!-- Bootstrap -->  
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js" integrity="sha512-nKXmKvJyiGQy343jatQlzDprflyB5c+tKCzGP3Uq67v+lmzfnZUi/ZT+fc6ITZfSC5HhaBKUIvr/nTLCV+7F+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <!-- Custom JS (Handed)-->
         <script src="assets/js/scripts.js"></script>
     </body>
